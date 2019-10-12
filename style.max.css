@@ -1,0 +1,39 @@
+input{
+	padding:10px;
+  font-size:15px;
+}
+.flex-container{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	padding:10px;
+}
+.input-container{
+	
+}
+.error{
+	color:red;
+}
+.flex-column{
+	flex-direction: column;
+}
+.output-header{
+	font-weight: 700;
+    width: 100%;
+    text-align: center;
+}
+.break-word{
+	width: 83%;
+    overflow-wrap: break-word;
+    line-height: 2;
+    text-align: center;
+}
+.hide{
+	display: none;
+}
+.show{
+	display: flex;
+}
+input[type='button']{
+	cursor: pointer;
+}
